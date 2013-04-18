@@ -1,0 +1,27 @@
+/* CSS Document */
+
+html {background:#000;}
+body  {background:#fff;width:750px;margin:0 auto;}
+section {border:solid #CCC 1px;} 
+p {margin:0} 
+h2, h3, h4{margin-bottom:5px;}
+.content {border:solid #666 1px; width:300px;  margin:20px; padding:20px; float:left; }
+.content article {border:solid #666 1px;}
+.cart {border:solid #666 1px; width:250px; margin:20px; padding:20px; float:left; }
+footer {background:#ccc; clear:both}
+#cart_shirt_image,#cart_pants_image {width:100px; height:100px;}
+
+#comp_frame {width:250px; height:250px; 
+
+}
+#comp_pants_layer {
+	width:250px; height:250px; 
+ 	background:url(../img/pants_large1.png);
+ 	position:absolute; z-index:1;
+}
+#comp_shirt_layer {
+	width:250px; height:250px;
+	
+	position:absolute; z-index:2;
+}
+

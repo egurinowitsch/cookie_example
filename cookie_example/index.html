@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Interactive Demo</title>
+<script src="js/myscript.js"></script>
+<script src="js/cookie_code.js"></script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+<nav><a href="index.html">Index</a> <a href="page2.html">Page 2</a></nav>
+
+<h2>Index</h2>
+
+<section class="content">
+
+    <h3>Shirt</h3>
+	<article class="content_image">
+        <img src="img/shirt_small1.jpg" alt="image" />
+        <h4><a href="#" id="shirt_btn_1">1. Red shirt</a></h4>
+        <p>$15.99</p>
+    </article>
+	<article class="content_image">
+        <img src="img/shirt_small2.jpg" alt="image" />
+        <h4><a href="#" id="shirt_btn_2">2. Green shirt</a></h4>
+        <p>$16.99</p>
+    </article>
+
+     <h3>Pants</h3>
+ 	<article class="content_image">
+        <img src="img/pants_small1.jpg" alt="image" />
+        <h4><a href="#" id="pants_btn_1">1. Blue pants</a></h4>
+        <p>$25.99</p>
+    </article>
+    
+</section>
+
+<aside class="cart">
+    <h2>Cart</h2>
+    
+    <h3>Shirt</h3>
+    <section id="cart_shirt_image">No choice yet</section>
+    <p id="cart_shirt_name">-</p>
+    <p id="cart_shirt_price">$</p>
+ 
+    <h3>Pants</h3>
+    <section id="cart_pants_image">No choice yet</section>
+    <p id="cart_pants_name">-</p>
+    <p id="cart_pants_price">$</p>
+    
+    <section id="cart_total">Total: $0</section>
+
+     <h3>Composite</h3>   
+    <section id="comp_frame">
+        <section id="comp_pants_layer"></section>
+		<section id="comp_shirt_layer"></section>
+     </section>
+</aside>
+
+<footer>&copy; Frank Schurter</footer>
+
+</body>
+</html>
